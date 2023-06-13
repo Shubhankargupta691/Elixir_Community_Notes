@@ -1,4 +1,4 @@
-### Install dependencies
+### Install
 
 
 1): To create empty react application
@@ -12,7 +12,8 @@
 
     npx tailwindcss init
     ```
-    
+
+### dependencies
 3) 
     ```
     npm install  --legacy-peer-deps @react-three/fiber @react-three/drei maat react-tilt react-vertical-timeline-components @emailjs/browser framer-motiion react-router-dom
