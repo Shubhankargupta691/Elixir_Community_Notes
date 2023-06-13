@@ -3,13 +3,19 @@
 1): 
 
 ```bash
-    npm install -D tailwindcss
+npm install -D tailwindcss
 
-    npx tailwindcss init
+npx tailwindcss init
 ```
 
 ### dependencies
 2) 
 ```bash
-    npm install  --legacy-peer-deps @react-three/fiber @react-three/drei maat react-tilt react-vertical-timeline-components @emailjs/browser framer-motiion react-router-dom
+npm install  --legacy-peer-deps @react-three/fiber @react-three/drei maat react-tilt react-vertical-timeline-components @emailjs/browser framer-motiion react-router-dom
+```
+### To start:
+
+3) 
+```bash
+npm run dev
 ```
