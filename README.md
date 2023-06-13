@@ -2,6 +2,7 @@
 
 
 1): To create empty react application
+
     ```
     npm create vite@latest ./ -- --template react
     ```
