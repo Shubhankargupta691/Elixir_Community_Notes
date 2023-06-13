@@ -1,28 +1,5 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+  Gdrive
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +23,7 @@ import {
       tags: [
        
       ],
-      image: carrent,
+      image: Gdrive,
       source_code_link: "https://drive.google.com/drive/folders/1TTjSSShjK5nrUURnSIVOK1wnO-CBCp7R?usp=share_link",
     },
     {
@@ -54,7 +31,7 @@ import {
       tags: [
    
       ],
-      image: jobit,
+      image: Gdrive,
       source_code_link: "https://drive.google.com/drive/folders/1c2gZ8TJ53P3ecNETMB403lTueQY5pEHU?usp=share_link",
     },
     {
@@ -62,14 +39,14 @@ import {
       tags: [
 
       ],
-      image: tripguide,
+      image: Gdrive,
       source_code_link: "https://github.com/ElixirTechCommunity",
     },{
       name: "fourth Year",
       tags: [
         
       ],
-      image: tripguide,
+      image: Gdrive,
       source_code_link: "https://github.com/ElixirTechCommunity",
     },
   ];

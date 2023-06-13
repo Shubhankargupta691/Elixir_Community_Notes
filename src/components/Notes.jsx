@@ -9,7 +9,6 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-import { ComputersCanvas } from "./canvas";
 
 const ProjectCard = ({
   index,
