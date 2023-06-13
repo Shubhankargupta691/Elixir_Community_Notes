@@ -8,8 +8,8 @@
     ```
     
 2): 
-    ```
-    npm install -D tailwindcss
+
+    ``` npm install -D tailwindcss
 
     npx tailwindcss init
     ```
