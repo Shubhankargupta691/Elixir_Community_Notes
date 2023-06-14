@@ -74,7 +74,9 @@ const Notes = () => {
     <>
       <motion.div variants={textVariant()}>
       
-        <h2 className={`${styles.sectionHeadText}`}>Notes</h2>
+        <h2 className={`${styles.sectionHeadText}`}><a
+          href="https://www.elixircommunity.live/"
+          target="_self">Notes</a></h2>
       </motion.div>
 
       <div className='w-full flex'>
