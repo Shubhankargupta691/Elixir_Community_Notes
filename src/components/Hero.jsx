@@ -1,9 +1,11 @@
+import React from 'react';
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
+
 const Hero = () => {
+  
   return (
     <section className={'relative w-full h-screen mx-auto'}>
       <div
@@ -15,7 +17,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText} text-white`} >
           <span className='text-[#915EFF]'>ELIXIR</span>
           </h1>
           <p className={`'text-white mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]`}>
