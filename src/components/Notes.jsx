@@ -110,7 +110,7 @@ const Notes = () => {
               border: 'none',
             }}
           >
-            Go to Main Page
+            Back Home page
           </a>
        </div>
     </>
