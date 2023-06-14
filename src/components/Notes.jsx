@@ -96,6 +96,15 @@ const Notes = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      <div className='mt-20 flex justify-center'>
+        <a
+          href="https://www.elixircommunity.live/"
+          target="_self"
+          className='bg-transparent border border-[#915EFF] text-white py-2 px-4 rounded'
+        >
+          Go to Main Page
+        </a>
+      </div>
     </>
   );
 };
