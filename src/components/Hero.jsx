@@ -23,9 +23,7 @@ const Hero = () => {
           </h1>
           <p className={`'text-white mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]`}>
           <h1 className="text-white text-[30px]">Welcome to the Notes section of our website!</h1><br className='sm:block hidden' />
-           This is where you can collect all  your important notes.
-           You can use the notes section to keep track of your work, personal projects, or anything else that's important to you.
-           You can also contribute by providing your stuff.
+           This is where you can collect all  your important notes, andyou can use the notes section to keep track of your work.
           </p>
           <pre />
         </div>
