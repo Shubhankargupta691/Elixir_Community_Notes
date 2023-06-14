@@ -74,9 +74,8 @@ const Notes = () => {
     <>
       <motion.div variants={textVariant()}>
       
-        <h2 className={`${styles.sectionHeadText}`}><a
-          href="https://www.elixircommunity.live/"
-          target="_self">Notes</a></h2>
+        <h2 className={`${styles.sectionHeadText}`}>
+          <a href="https://www.elixircommunity.live/" target="_self">Notes</a></h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -98,15 +97,22 @@ const Notes = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+ 
       <div className='mt-20 flex justify-center'>
-        <a
-          href="https://www.elixircommunity.live/"
-          target="_self"
-          className='bg-transparent border border-[#915EFF] text-white py-2 px-4 rounded'
-        >
-          Go to Main Page
-        </a>
-      </div>
+          <a
+              href="https://www.elixircommunity.live/"
+              target="_self"
+              className='bg-transparent text-[#915EFF] hover:bg-[violet-gradient] hover:text-white py-2 px-4 rounded transition-colors duration-300 ease-in-out'
+              style={{
+              fontWeight: 'bold',
+              letterSpacing: '1px',
+              textDecoration: 'none',
+              border: 'none',
+            }}
+          >
+            Go to Main Page
+          </a>
+       </div>
     </>
   );
 };
