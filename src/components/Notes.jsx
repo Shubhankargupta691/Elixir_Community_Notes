@@ -113,6 +113,9 @@ const Notes = () => {
             Back Home page
           </a>
        </div>
+       <div className='mt-5 flex justify-center'>
+        <p>Made with love by <a href="https://www.instagram.com/geeksforgeeks_abesec/" target="_blank">GFG ABESEC</a></p>
+      </div>
     </>
   );
 };
