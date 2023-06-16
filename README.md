@@ -1,4 +1,6 @@
-### Install
+# ELIXIR NOTES SECTION
+
+### Dependencies you need to Install
     
 1): 
 
