@@ -73,23 +73,8 @@ const Notes = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-      
-        <h2 className={`${styles.sectionHeadText}`}>
-          <a href="https://www.elixircommunity.live/" target="_top">Notes</a></h2>
-      </motion.div>
 
-      <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          This section could include notes for all of the courses that are typically taught in a BTech program, 
-          such as engineering mathematics, engineering physics etc. 
-          The notes could be in a variety of formats, such as PDFs, Word documents and Hand Written format also.
-          
-          
-        </motion.p>
-      </div>
+      </motion.div>
 
       
       <div className='mt-20 flex flex-wrap gap-7'>
@@ -98,22 +83,7 @@ const Notes = () => {
         ))}
       </div>
  
-      <div className='mt-20 flex justify-center'>
-          <a
-              href="https://www.elixircommunity.live/"
-              target="_top"
-              className='bg-transparent text-[#915EFF] hover:bg-[violet-gradient] hover:text-white py-2 px-4 rounded transition-colors duration-300 ease-in-out'
-              style={{
-              fontWeight: 'bold',
-              letterSpacing: '1px',
-              textDecoration: 'none',
-              border: 'none',
-            }}
-          >
-            Back Home page
-          </a>
-       </div>
-       <div className='mt-5 flex justify-center'>
+       <div className='mt-20 flex justify-center'>
         <p>Made with love by <a href="https://www.instagram.com/geeksforgeeks_abesec/" target="_blank">GFG ABESEC</a></p>
       </div>
     </>
