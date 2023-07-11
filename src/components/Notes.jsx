@@ -84,18 +84,6 @@ const Notes = () => {
       </div>
 
   
-      <div className='mt-20 flex justify-center' >
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          This section could include notes for all of the courses that are typically taught in a BTech program, 
-          such as engineering mathematics, engineering physics etc. 
-          The notes could be in a variety of formats, such as PDFs, Word documents and Hand Written format also.
-          
-          
-        </motion.p>
-      </div>
 
        <div className='mt-8 flex justify-center p-6'>
         
