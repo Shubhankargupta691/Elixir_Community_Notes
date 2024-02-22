@@ -1,5 +1,5 @@
 # ELIXIR NOTES SECTION
-
+<img src="/src/assets/Elixir.png"/>
 ### Dependencies you need to Install
     
 1): 
