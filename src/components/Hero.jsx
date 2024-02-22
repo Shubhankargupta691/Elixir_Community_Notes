@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`} >
-          <a href="https://www.elixircommunity.live/" target="_top"><span className='text-[#915EFF]'>ELIXIR NOTES</span></a>
+          <a href="https://www.elixircommunity.in/" target="_top"><span className='text-[#915EFF]'>ELIXIR NOTES</span></a>
           
           
           </h1>
